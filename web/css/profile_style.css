@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+
+#mainimage {
+	height: 200px;
+}
+
+.whitebox {
+	margin: 50px 0;
+}
+
+#profile img {
+	width: 40%;
+	float: left;
+	margin-right: 20px;
+}
+
+#profile h1 {
+	font-size: 30px;
+	letter-spacing: 25px;
+	text-indent: 25px;
+	margin: 15px 0 10px;
+}
+
+#profile h1,h2 {
+	text-align: center;
+}
+
+#profile p {
+	margin: 20px 0 0;
+	letter-spacing: 5px;
+	line-height: 1.75em;
+}
+
+#profile figcaption {
+	position: relative;
+	top: 50px;
+}
+
+#works {
+	padding: 40px;
+}
+
+#works h1 {
+	font-size: 30px;
+}
+
+#works h1 img {
+	height: 30px;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.flex:after{
+  content: "";
+  display: block;
+  width: 30%;
+}
+
+.work {
+	width: 30%;
+	margin-top: 30px;
+}
+
+.work img {
+	width: 100%;
+}
+
+.work p {
+	font-size: 12px;
+}

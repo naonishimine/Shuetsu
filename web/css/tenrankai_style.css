@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.whitebox {
+	position: relative;
+	margin: 50px 0;
+	padding: 40px;
+}
+
+.feature {
+	margin-bottom: 50px;
+}
+
+.feature h1 img {
+	width: 70%;
+}
+
+.kakaku {
+	width: 15%;
+	position: absolute;
+	top: 40px;
+	right: 40px;
+}
+
+.map img {
+	width: 30%;
+	position: absolute;
+	top: 130px;
+	right: 40px;
+}
+
+.date img {
+	width: 60%;
+	margin: 30px 0 30px 30px;
+}
+
+.setsumei {
+	width: 65%;
+	letter-spacing: 3px;
+	line-height: 1.25em;
+}
+
+
+
+#naiyo h1 {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+#naiyo h1 img {
+	height: 30px;
+}
+
+.flex {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.work {
+	width: 35%;
+}
+
+.work img {
+	width: 100%;
+}
+
+.work p {
+	font-size: 14px;
+}
+
+.work:last-child {
+	width: 20%;
+	align-self: flex-end;
+}
+
+#unkoukettei {
+	width: 180px;
+	height: 180px;
+	background: #011;
+	float: left;
+	margin: 40px 0;
+}
+
+#ozashikiresha .date img {
+	margin: 40px 0 20px 20px;
+}
+
+#ozashikiresha .setsumei {
+	width: 95%;
+	position: relative;
+	left: 20px;
+}
+
+#ozashikiresha .feature {
+	margin-bottom: 0;
+}
+
+#timetable img {
+	width: 100%;
+}
+
+#timetable p {
+	width: 80%;
+	margin: 0 auto;
+}

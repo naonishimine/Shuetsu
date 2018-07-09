@@ -1,0 +1,214 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body {
+	background: url(../images/background.JPG) repeat-y right top;
+	font-size: 16px;
+	font-family: "YuGothic","Yu Gothic","メイリオ","MS ゴシック", sans-serif;
+}
+
+#wrapper {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/* ヘッダー */
+header {
+	height: 90px;
+	background: #011;
+	border-bottom: 5px solid #fff;
+	overflow: hidden;
+	position: fixed;
+	z-index: 9999;
+	width: 960px;
+	margin: 0 -200%;
+	padding: 0 200%;
+}
+
+nav img {
+	height: 90px;
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	cursor: pointer;
+}
+
+nav li {
+	float:left;
+	width: 140px;
+	height: 45px;
+	margin: 0 10px;
+	background: #f4d225;
+	position: relative;
+	bottom: 45px;
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+nav li:first-child {
+	margin-left: 90px;
+}
+
+nav li:nth-child(2) {
+	margin-right: 180px;
+}
+
+nav li img {
+	height: 45px;
+}
+
+nav li:hover {
+	background: #ffde80;
+}
+
+/* メイン */
+main {
+	position: relative;
+	top: 95px;
+	padding-top: 50px;
+}
+
+/* メインビジュアル */
+#mainimage {
+	height: 400px;
+	background: #fff;
+}
+
+#mainimage a:hover {
+	opacity: 0.9;
+}
+
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	font-size: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+/* ボックス */
+.whitebox {
+	background: #fff;
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.7) inset;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.whitebox2 {
+	width: 470px;
+	background: #fff;
+	box-shadow: 0px 0px 5px 1px rgba(0,0,0,0.7) inset;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.whitebox2 img {
+	width: 50%;
+}
+
+.imgCenter {
+	display: block;
+	margin: 0 auto;
+}
+
+#shuetsubox {
+	margin: 50px 0;
+}
+
+/* 左プロフィール */
+#shuetsuprof {
+	height: 620px;
+	float: left;
+}
+
+#shuetsuprof h1 {
+	font-size: 30px;
+	letter-spacing: 25px;
+	text-indent: 25px;
+	margin: 15px 0 10px;
+}
+
+#shuetsuprof h1,h2 {
+	text-align: center;
+}
+
+#shuetsuprof p {
+	margin: 20px 15px 0;
+	letter-spacing: 3px;
+	line-height: 1.75em;
+}
+
+.more {
+	font-weight: bold;
+	text-align: right;
+}
+
+.more a {
+	color: #f4d225;
+	text-decoration: none;
+}
+
+.more a:hover {
+	line-height: 20px;
+	border-bottom: 1px solid #f4d225;
+}
+
+/* 右修悦体 */
+#shuetsutai {
+	height: 400px;
+	margin-bottom: 20px;
+	float: right;
+	position: relative;
+}
+
+#shuetsutai img {
+	width: 100%;
+	margin: 20px 0;
+}
+
+#shuetsutai h1 {
+	font-size: 24px;
+	text-align: center;
+	letter-spacing: 20px;
+	text-indent: 20px;
+}
+
+/* 右本販売中 */
+#shuetsubook {
+	height: 200px;
+	float: right;
+	position: relative;
+}
+
+#shuetsubook img {
+	width: 100%;
+}
+
+/* ロールオーバー */
+#shuetsutai a,#shuetsubook a {
+	display: block;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-indent: -9999px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+#shuetsutai a:hover,#shuetsubook a:hover {
+	opacity: 0.25;
+	background-color: #fff;
+}
+
+/* フッター */
+footer {
+	background: #fff;
+	text-align: center;
+	line-height: 2.5em;
+	position: relative;
+	top: 100px;
+}

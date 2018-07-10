@@ -5,3 +5,10 @@ $(".headericon").click(function () {
 	return false;
 	});
 });
+
+$(document).ready(function(){
+	$('.bxslider').bxSlider({
+		auto: true,
+		pause: 5000
+	});
+});

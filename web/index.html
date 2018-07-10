@@ -6,6 +6,8 @@
 <link href="./css/reset.css" rel="stylesheet" type="text/css"><!--ResetCSS読込-->
 <link href="./css/common.css" rel="stylesheet" type="text/css"><!--外部CSS読込-->
 <script src="js/jquery-3.3.1.min.js"></script><!-- jQueryライブラリ読込 -->
+<script src="js/jquery.bxslider.min.js"></script><!--bxsliderライブラリ読み込み-->
+<link href="css/jquery.bxslider.css" rel="stylesheet" type="text/css" /><!--bxslider用CSS読み込み-->	
 <script src="js/script.js"></script><!-- jQuery記述 -->
 <style type="text/css">/* 内部CSS */
 
@@ -33,7 +35,12 @@
 
 <!-- メインビジュアル -->
 <div id="mainimage">
-	<p><a href="tenrankai.html"><img src="./images/tenrankaimainimage.jpg"></a></p>
+	<ul class="bxslider">
+	<li><a href="tenrankai.html"><img src="./images/tenrankaimainimage.jpg"></a></li>
+	<li><a href="tenrankai.html"><img src="./images/tenrankaimainimage.jpg"></a></li>
+	<li><a href="tenrankai.html"><img src="./images/tenrankaimainimage.jpg"></a></li>
+	<li><a href="tenrankai.html"><img src="./images/tenrankaimainimage.jpg"></a></li>
+	</ul>	
 </div>
 
 <section id="shuetsubox" class="clearfix">
